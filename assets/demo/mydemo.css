@@ -42,8 +42,9 @@
         }
         }
         @media only screen and (max-width: 750px) {
-          button {
-            margin-left:30%;
+          .button {
+            display: inherit !important;
+            margin:auto;
             }
             }
 .button {
