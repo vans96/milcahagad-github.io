@@ -160,8 +160,7 @@ The above copyright notice and this permission notice shall be included in all c
         <div class="image-container1 subject"><br><br>
             <img class="img1" src="./assets/img/milcah.png" alt="Description of Image">
         </div>
-        <div class="description-container1 subject">
-            
+        <div class="description-container1 subject"> 
           <h2 class="hello">Hello, I'm Mia B. </h2><br>
             <p>I help authors build and design funnels for their books. I have been designing online business funnels since 2019 with a focus on helping business owners of every size achieve their sales, marketing, and income goals.</p><br>
             <p></p>
@@ -185,7 +184,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <i class="nc-icon nc-single-02"></i>
                       </span>
                     </div>
-                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Name" autocomplete="name" required>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -196,12 +195,12 @@ The above copyright notice and this permission notice shall be included in all c
                         <i class="nc-icon nc-email-85"></i>
                       </span>
                     </div>
-                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required autocomplete="email">
                   </div>
                 </div>
               </div>
-              <label for="Message" style="color:bisque">Message</label>
-              <textarea name="Message" class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+              <label for="message" style="color:bisque">Message</label>
+              <textarea name="Message" id="message" class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
               <div class="row">
                 <div class=" ml-auto mr-auto button ">
                   <button class="btn btn-danger btn-lg btn-fill ">Send Message</button>
