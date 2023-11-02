@@ -6592,8 +6592,8 @@ License - nucleoapp.com/license/
 }
 
 .card-profile .card-avatar {
-  max-width: 170px;
-  max-height: 170px;
+  max-width: 200px;
+  max-height: 250px;
   margin: -60px auto 0;
   border-radius: 0%;
   overflow: hidden;

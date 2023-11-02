@@ -3,6 +3,7 @@
             flex-wrap: wrap;
             margin: 0 auto;
             max-width: 1200px;
+            min-height: 475px;;
         }
 
         .image-container1,
@@ -43,12 +44,14 @@
         }
         @media only screen and (max-width: 750px) {
           .button {
-            display: inherit !important;
             margin:auto;
             }
             }
+.btn {
+    width:250px;
+}
 .button {
-    width:200px;
+    margin:auto;
 }
 .description-container1 > h2 {
     font-weight: 700;
@@ -66,7 +69,9 @@
 .card-avatar {
     border-radius:none;
 }
-
+.hello {
+    padding-top: 50px;
+}
 .footer {
     background-color:;
 }
